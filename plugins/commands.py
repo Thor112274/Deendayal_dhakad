@@ -57,7 +57,7 @@ async def start(client, message):
                     InlineKeyboardButton('🦧 ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('❤️ ᴀʙᴏᴜᴛ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='DHAKAD_DONATION'),
+                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='shortlink_info'),
                     InlineKeyboardButton('Dᴇᴀʟꜱ.🍁', url=f'https://t.me/amazon_flipkartt_offers')
                 ],[
                     InlineKeyboardButton('✨ Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ ✨', url=f'https://t.me/+cJOE_D2aHbcxNDk1')
@@ -73,7 +73,7 @@ async def start(client, message):
             gtxt = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ 👋"
         else:
             gtxt = "ɢᴏᴏᴅ ɴɪɢʜᴛ 👋"
-        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>Deendayal Files Bot</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
+        m=await message.reply_text("<i>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ <b>Movie Loverz Files Bot</b>.\nʜᴏᴘᴇ ʏᴏᴜ'ʀᴇ ᴅᴏɪɴɢ ᴡᴇʟʟ...</i>")
         await asyncio.sleep(0.4)
         await m.edit_text("⏳")
         await asyncio.sleep(0.5)
@@ -133,7 +133,7 @@ async def start(client, message):
                     InlineKeyboardButton('🦧 ʜᴇʟᴘ ', callback_data='help'),
                     InlineKeyboardButton('❤️ ᴀʙᴏᴜᴛ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='DHAKAD_DONATION'),
+                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='shortlink_info'),
                     InlineKeyboardButton('Dᴇᴀʟꜱ.🍁', url=f'https://t.me/amazon_flipkartt_offers')
                 ],[
                      InlineKeyboardButton('✨ Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ ✨', url=f'https://t.me/+cJOE_D2aHbcxNDk1')
