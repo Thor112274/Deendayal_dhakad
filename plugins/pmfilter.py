@@ -1646,7 +1646,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🦧 ʜᴇʟᴘ ', callback_data='help'),
                     InlineKeyboardButton('❤️ ᴀʙᴏᴜᴛ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='DHAKAD_DONATION'),
+                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='shortlink_info'),
                     InlineKeyboardButton('Dᴇᴀʟꜱ.🍁', url=f'https://t.me/amazon_flipkartt_offers')
                 ],[
                      InlineKeyboardButton('✨ Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ ✨', url=f'https://t.me/+cJOE_D2aHbcxNDk1')
