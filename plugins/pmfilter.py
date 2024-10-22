@@ -1585,10 +1585,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             username = query.from_user.mention 
             
             # Check if user is premium
-            is_premium = await db.has_premium_access(user_id)
-            if not is_premium:
-                await query.answer("यह 𝑆𝑒𝑟𝑣𝑖𝑐𝑒 केवल 𝑃𝑟𝑒𝑚𝑖𝑢𝑚 𝑈𝑠𝑒𝑟𝑠 के लिए है आपके पास 𝑃𝑟𝑒𝑚𝑖𝑢𝑚 𝐴𝑐𝑐𝑒𝑠𝑠 नहीं है इसलिए आप इस 𝑆𝑒𝑟𝑣𝑖𝑐𝑒 का उपयोग नहीं कर सकते।", show_alert=True)
-                return  # Stop further execution if not premium
+            #is_premium = await db.has_premium_access(user_id)
+            #if not is_premium:
+               # await query.answer("यह 𝑆𝑒𝑟𝑣𝑖𝑐𝑒 केवल 𝑃𝑟𝑒𝑚𝑖𝑢𝑚 𝑈𝑠𝑒𝑟𝑠 के लिए है आपके पास 𝑃𝑟𝑒𝑚𝑖𝑢𝑚 𝐴𝑐𝑐𝑒𝑠𝑠 नहीं है इसलिए आप इस 𝑆𝑒𝑟𝑣𝑖𝑐𝑒 का उपयोग नहीं कर सकते।", show_alert=True)
+               # return  # Stop further execution if not premium
             # If premium, proceed with link generation
             log_msg = await client.send_cached_media(
                 chat_id=LOG_CHANNEL,
