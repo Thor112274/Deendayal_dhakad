@@ -116,7 +116,7 @@ async def start(client, message):
         await client.send_photo(
             chat_id=message.from_user.id,
             photo="https://graph.org/file/7478ff3eac37f4329c3d8.jpg",
-            caption="**You have not joined our Update Channel.\nClick on the Join Updats Channel button and join our updates channel.\n After that, please try again.\n\n**\n\n
+            caption="**You have not joined our Update Channel.\nClick on the Join Updats Channel button and join our updates channel.\n After that, please try again.\n\n**\n\n"
             "**Join Updates Channel మీరు ఈ క్రింద ఉన్న ఛానల్ జాయిన్ అవ్వాలి.. Join అయిన తర్వాత ' Try Again ' Click చేస్తే File వస్తుంది 😊....**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
