@@ -186,7 +186,7 @@ async def next_page(bot, query):
 
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+                #InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
@@ -198,7 +198,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -206,7 +206,7 @@ async def next_page(bot, query):
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+                #InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
@@ -218,7 +218,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"), 
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"), 
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -425,7 +425,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+               # InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
@@ -437,7 +437,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -445,7 +445,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+                #InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
@@ -457,7 +457,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -604,7 +604,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -612,7 +612,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+                #InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
@@ -624,7 +624,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -795,7 +795,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+                #InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
@@ -807,7 +807,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ ", callback_data=f"sendfiles#{key}")
         ])
     
@@ -1646,7 +1646,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🦧 ʜᴇʟᴘ ', callback_data='help'),
                     InlineKeyboardButton('❤️ ᴀʙᴏᴜᴛ ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='donation'),
+                    InlineKeyboardButton('Dᴏɴᴀᴛɪᴏɴ 🎉', callback_data='DHAKAD_DONATION'),
                     InlineKeyboardButton('Dᴇᴀʟꜱ.🍁', url=f'https://t.me/amazon_flipkartt_offers')
                 ],[
                      InlineKeyboardButton('✨ Bᴏᴛ Uᴘᴅᴀᴛᴇꜱ ✨', url=f'https://t.me/+cJOE_D2aHbcxNDk1')
@@ -2443,7 +2443,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -2451,7 +2451,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
+                #InlineKeyboardButton("⇈ Sᴇʟᴇᴄᴛ Oᴘᴛɪᴏɴ Hᴇʀᴇ ⇈", 'reqinfo')
             ]
         )
         btn.insert(0, 
@@ -2463,7 +2463,7 @@ async def auto_filter(client, msg, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⚜️【𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳】⚜️", url=f"https://t.me/Movie_loverzz"),
+            InlineKeyboardButton("⚜️【 𝐉𝐨𝐢𝐧 - 𝐌𝐨𝐯𝐢𝐞_𝐋𝐨𝐯𝐞𝐫𝐳𝐳 】⚜️", url=f"https://t.me/Movie_loverzz"),
             #InlineKeyboardButton("Sᴇᴀɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
